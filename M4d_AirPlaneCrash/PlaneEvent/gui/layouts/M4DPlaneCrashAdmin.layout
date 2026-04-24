@@ -1,0 +1,123 @@
+FrameWidgetClass rootFrame {
+ size 1 1
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ {
+  PanelWidgetClass panel_bg {
+   ignorepointer 0
+   color 0.2941 0.2941 0.2941 1
+   size 720 520
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style DayZDefaultPanel
+   {
+    TextWidgetClass txt_title {
+     ignorepointer 0
+     position 10 10
+     size 700 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "M4D Plane Crash Admin"
+     "text halign" left
+     "text valign" center
+    }
+    TextWidgetClass txt_status {
+     ignorepointer 0
+     position 10 42
+     size 700 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text ""
+     "text halign" left
+     "text valign" center
+    }
+    TextListboxWidgetClass lst_settings {
+     position 10 70
+     size 390 400
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
+    PanelWidgetClass panel_edit {
+     ignorepointer 0
+     position 410 70
+     size 300 400
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass lbl_value {
+       ignorepointer 0
+       position 0 0
+       size 300 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Value"
+       "text halign" left
+       "text valign" center
+      }
+      EditBoxWidgetClass edit_value {
+       position 0 24
+       size 300 26
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text ""
+      }
+      CheckBoxWidgetClass chk_value {
+       position 0 24
+       size 300 26
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Enabled"
+      }
+     }
+    }
+    ButtonWidgetClass btn_reload {
+     position 10 480
+     size 120 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Reload"
+    }
+    ButtonWidgetClass btn_save {
+     position 140 480
+     size 120 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Save"
+    }
+    ButtonWidgetClass btn_close {
+     position 590 480
+     size 120 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Close"
+    }
+   }
+  }
+ }
+}
